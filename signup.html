@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>smart-login.netlify signup</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/signupStyle.css">
+</head>
+<body class="bg-dark">
+
+
+  <header class="my-5 ">
+    <div class="w-75 m-auto text-center text-white bg-dark p-5 rounded-3 shadow-lg ">
+      <h1>Smart Login System</h1>
+      <input id="nameInputSignUp" class="form-control mt-3" type="text" placeholder="Enter Your Name">
+      <input id="emailInputSignUp" class="form-control my-3" type="email" placeholder="Enter Your Email">
+      <input id="passInputSignUp" class="form-control" type="password" placeholder="Enter Your PassWord">
+      <h4 id="dontEmpity" class="text-center text-danger d-none">All inputs is required</h4>
+      <button id="signupBtn" class="btn btn-outline-info my-3 w-100" onclick="signupFunc ()" >Sign Up</button>
+      <p>Don’t have an account?<a href="index.html">Sign in</a> </p>
+    </div>
+  </header>
+
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/signup.js"></script>
+</body>
+</html>
